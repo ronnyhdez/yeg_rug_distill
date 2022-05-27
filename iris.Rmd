@@ -1,0 +1,52 @@
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Ronny  
+    url: https://ronnyale.com
+    affiliation: Edmonton RUG
+    affiliation_url: https://yegrug.github.io/
+journal: "Journal of Data Science Software"
+doi: "10.23915/distill.00010"
+slug: jones2018distill
+date: "`r Sys.Date()`"
+bibliography: references.bib
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(dplyr)
+library(ggplot2)
+library(janitor)
+library(readr)
+library(plotly)
+```
+
+# Import data
+
+```{r}
+iris_clean <- read_csv("iris_clean.csv")
+```
+
+# Iris exploration
+
+Et magni et enim veniam. Eum eius et temporibus dolores cum. Doloremque explicabo facere optio similique officia et. Ex et laborum est. [@rogers_response_2020] 
+
+<aside>
+This is a note
+</aside>
+
+```{r, fig.cap= "Iris relation petal ..."}
+plot <- iris_clean %>% 
+  ggplot(aes(x = petal_width, y = petal_length, color = species)) +
+  geom_point() +
+  scale_color_viridis_d() +
+  theme_light()
+  
+ggplotly(plot)
+```
+
+

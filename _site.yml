@@ -1,0 +1,27 @@
+name: "yeg_rug_distill"
+title: "YEG"
+exclude: ["*.csv"]
+theme: styles.css
+creative_commons: CC BY
+favicon: favicon.ico
+description: |
+  YEG
+output_dir: "docs"
+navbar:
+  logo: 
+    image: images/logo.png
+    href: https://www.ronnyale.com 
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "EDA"
+      menu:
+        - text: "Test"
+          href: test.html
+        - text: "Iris"
+          href: iris.html
+    - icon: fab fa-github
+      href: https://github.com/ronnyhdez/yeg_rug_distill
+output: distill::distill_article

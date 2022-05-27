@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-05-26T19:59:32-06:00"
+    },
+    {
+      "path": "index.html",
+      "title": "YEG",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\nLearn more about creating websites with Distill at: https://rstudio.github.io/distill/website.html\nLearn more about publishing to GitHub Pages at: https://rstudio.github.io/distill/publish_website.html#github-pages\n\n\n\n\nFigure 1: Santa Rosa National Park from tower\n\n\n\n\n\n\n",
+      "last_modified": "2022-05-26T19:59:33-06:00"
+    },
+    {
+      "path": "iris.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Ronny",
+          "url": "https://ronnyale.com"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nImport data\n\n\n\nIris exploration\nEt magni et enim veniam. Eum eius et temporibus dolores cum.\nDoloremque explicabo facere optio similique officia et. Ex et laborum\nest. (Rogers et al.\n2020)\n\nThis is a note\n\n\n\n\nFigure 1: Iris relation petal …\n\n\n\n\n\n\nRogers, Cheryl A., Jing M. Chen, Ting Zheng, Holly Croft, Alemu Gonsamo,\nXiangzhong Luo, and Ralf M. Staebler. 2020. “The\nResponse of Spectral Vegetation\nIndices and Solar‐Induced\nFluorescence to Changes in\nIllumination Intensity and\nGeometry in the Days Surrounding\nthe 2017 North American Solar\nEclipse.” Journal of Geophysical Research:\nBiogeosciences 125 (10). https://doi.org/10.1029/2020JG005774.\n\n\n\n\n",
+      "last_modified": "2022-05-26T19:59:34-06:00"
+    },
+    {
+      "path": "test.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [
+        {
+          "name": "Nora Jones",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\nDistill is a publication format for scientific and technical writing,\nnative to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2022-05-26T19:59:35-06:00"
+    }
+  ],
+  "collections": []
+}
